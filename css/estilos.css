@@ -1,0 +1,37 @@
+body{
+	background-image: url(../images/photo-1517134191118-9d595e4c8c2b.jpg);
+}
+
+.jumbotron{
+	background-color: #357cc4;
+	color: white;
+}
+
+.panel-heading{
+	background-color: #4283ed;
+	color: white;
+}
+
+
+.navbar{
+	background-color: #4283ed !important;
+}
+
+
+.navbar-brand:link, .navbar-brand:visited{
+	color: #41454c !important;
+}
+
+.navbar-brand:hover, .navbar-brand:active{
+	color: #FFFFFF !important;
+}
+
+
+.navbar li a:link, .navbar li a:visited{
+	color: white !important;
+	font-size: 1.2em;
+}
+
+.navbar li a :hover, .navbar li a:active{
+	color: #357cc4  !important;
+}
