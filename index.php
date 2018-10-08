@@ -74,6 +74,14 @@
                             <span class="glyphicon glyphicon-time" aria-hidden="true"></span> Ultimas entradas
                         </div>
                         <div class="panel-body">
+                            <?php
+                                include_once('app/conexion.php');
+
+                                Conexion :: abrir_conexion();
+                                Conexion :: cerrar_conexion();
+
+                            ?>
+
                             <p>Todavia no hay entradas</p>
                         </div>
                     </div>
