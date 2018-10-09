@@ -16,7 +16,7 @@ class Conexion{
 				self::$conexion -> exec("SET CHARACTER SET utf8");
 				print "conexion abierta" . "<br>";
 
-			} catch (PDOException $e) {
+			} catch (PDOException $e){
 				print "Error" . $e -> getMessage() . '<br>';
 				die();
 			}

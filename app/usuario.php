@@ -20,7 +20,7 @@ class Usuario{
 		$this -> activo = $activo;
 	}
 
-	//getters y seters de las variables haciendo referencia a la tabla usuarios
+	//getters y setters de las variables haciendo referencia a la tabla usuarios
 	public function getId(){
 		return $this => $id;
 	}

@@ -1,5 +1,5 @@
 body{
-	background-image: url(../images/photo-1517134191118-9d595e4c8c2b.jpg);
+	background-image: url(../images/texture_b_9_by_sirius_sdz.jpg);
 }
 
 .jumbotron{
@@ -8,22 +8,22 @@ body{
 }
 
 .panel-heading{
-	background-color: #4283ed;
-	color: white;
+	background-color: #357cc4 !important;
+	color: white !important;
 }
 
 
 .navbar{
-	background-color: #4283ed !important;
+	background-color: #357cc4 !important;
 }
 
 
 .navbar-brand:link, .navbar-brand:visited{
-	color: #41454c !important;
+	color: white !important;
 }
 
 .navbar-brand:hover, .navbar-brand:active{
-	color: #FFFFFF !important;
+	color: grey !important;
 }
 
 
@@ -33,5 +33,13 @@ body{
 }
 
 .navbar li a :hover, .navbar li a:active{
-	color: #357cc4  !important;
+	color: black !important;
+}
+
+.icon-bar{
+	background-color: white;
+}
+
+.navbar-toggle{
+	background-color: white;
 }

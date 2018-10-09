@@ -1,3 +1,17 @@
+<?php 
+include_once('app/conexion.php');
+
+include_once('app/repositorioUsuario.php');
+
+Conexion :: abrir_conexion();
+$usuarios = array();
+$usuarios = repositorioUsuario :: obtenerDatos(Conexion::getConexion());
+
+echo count($usuarios);
+
+Conexion :: cerrar_conexion();
+ ?>
+
 <!DOCTYPE html>
 
 <html lang="es"> 
@@ -76,10 +90,8 @@
                         <div class="panel-body">
                             <?php
                                 include_once('app/conexion.php');
-
                                 Conexion :: abrir_conexion();
                                 Conexion :: cerrar_conexion();
-
                             ?>
 
                             <p>Todavia no hay entradas</p>
